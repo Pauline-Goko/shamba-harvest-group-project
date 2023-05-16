@@ -523,11 +523,15 @@ body{
         grid-template-columns: repeat(1,4fr);
         gap: 30px;
     }
+    
     #what{
         font-size: 1em;
         margin-right: 20%;
     }
 }
+
+
+
    
 
 
