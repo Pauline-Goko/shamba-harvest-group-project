@@ -1,0 +1,325 @@
+#logo{
+    width: 130px;
+    margin-left: 6%;
+    
+}
+
+body{
+
+    background-image: linear-gradient(to right, rgb(232, 240, 232), rgb(148, 230, 148));
+    
+    
+}
+
+.nav{
+    display: flex;
+    margin-top: 2%;
+}
+
+.nav p{
+    padding-left: 180px;
+    font-weight: bold;
+   
+}
+
+.welcome{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    margin-left: 6%;
+}
+
+#mama{
+    width: 500px;
+    height: 700px;
+}
+
+.fast{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    margin-left: 6%;
+}
+
+#button1{
+    width: 160px;
+    height: 50px;
+    background-color: rgb(17, 126, 17);
+    color: black;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 30px;
+    font-size: 0.5em;
+    border-color: black;
+    
+}
+
+.button1 a{
+    text-decoration: none;
+}
+
+#shamba{
+    color: rgb(15, 168, 15);
+    
+}
+
+#fresh{
+    color: green;
+    font-weight: bold;
+}
+
+#wel{
+    font-size: 2em;
+}
+
+#delivery{
+    border-style: hidden;
+    width: 200px;
+    background-color: white;
+    border-radius: 6%;
+}
+
+
+#track{
+    width: 80px;
+    
+}
+
+#clock{
+    width: 50px;
+    margin-top: 11%;
+    padding-bottom: 25px;
+    
+}
+
+
+#support{
+    width: 40px;
+    margin-top: 10%;
+    padding-bottom: 25px;
+    margin-left: 4%;
+}
+
+#delivery h4{
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+#delivery p{
+    margin-left: 5%;
+}
+
+
+
+.nav a{
+    text-decoration: none;
+}
+
+
+
+@media(max-width:800px){
+
+ 
+    .nav{
+        display: grid;
+    
+    
+    }
+
+    .nav p{
+        margin-left: -40%;
+    }
+
+   
+
+    #wel{
+        font-size: 0.6em;
+    }
+
+    #button1{
+        width: 50px;
+         height: 20px;
+        border-radius: 15%; 
+       }
+
+    .welcome{
+        display: grid;
+        grid-template-columns: repeat(1,2fr);
+    }
+
+    #mama{
+        width: auto;
+        height: auto;
+    }
+
+    .fast{
+        display: grid;
+        grid-template-columns: repeat(1,3fr);
+        padding-bottom: 60px;
+        gap: 30px;
+    }
+
+    #home{
+        overflow-x: hidden;
+    }
+
+   
+}
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+#image{
+    border-radius: 30px;
+}
+body{
+    background-image: linear-gradient(to right, rgb(232, 240, 232), rgb(148, 230, 148));
+    margin-right: 4%;
+
+}
+.vision{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    font-size: 1.2em;
+}
+#image2{
+    border-radius: 30px;
+}
+
+#words{
+
+    margin-left: 4%;
+    font-size: 1.2em;
+}
+
+.vision h3{
+    font-size: 1.8em;
+}
+
+#head{
+    text-align: center;
+    font-size: 2.3em;
+}
+@media (max-width: 800px){
+    *{
+    
+        font-size: 15px;
+
+    }
+    #image{
+        border-radius: 10px;
+        width:auto;
+        height: auto;
+    }
+    #words{
+        
+        position: relative;
+   
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+    
+    
+    .about {
+      grid-template-columns: 1fr;
+      margin-left: 10px;
+      margin-top: 40px;
+    }
+    
+    #image {
+      border-radius: 20px;
+    }
+    
+    .vision {
+      grid-template-columns: 1fr;
+      margin: 10px;
+      font-size: 1em;
+    }
+    
+    #image2 {
+      border-radius: 20px;
+    }
+    
+    #words {
+      margin-left: 10px;
+      font-size: 1em;
+    }
+    
+    .vision h3 {
+      font-size: 1.5em;
+    }
+    
+    #head {
+      font-size: 2em;
+    }
+  }
+  
+  @media (max-width: 800px) {
+
+    
+    .about {
+     display: grid;
+     grid-template-columns: repeat(1,2fr);
+      margin-left: 10px;
+      margin-top: 40px;
+    }
+    
+    #image {
+      border-radius: 20px;
+    }
+    
+    .vision {
+      grid-template-columns: 1fr;
+      margin: 10px;
+      font-size: 1em;
+    }
+    
+    #image2 {
+      border-radius: 20px;
+    }
+    
+    #words {
+      margin-left: 10px;
+      font-size: 1em;
+    }
+    
+    .vision h3 {
+      font-size: 1.5em;
+    }
+    
+    #head {
+      font-size: 2em;
+    }
+  }
+
+  
+  @media only screen and (min-width: 800px) and (max-width: 1100px) {
+
+    
+    body {
+      font-size: 16px;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
